@@ -1589,7 +1589,7 @@
 		color: #232323;
 	}
 
-	h2, h3, h4, h5, h6 {
+	h1, h2, h3, h4, h5, h6 {
 		font-family: 'Roboto', sans-serif;
 		font-weight: 700;
 		color: #232323;
@@ -2318,12 +2318,15 @@
 			body {
 				height: 100%;
 				line-height: 1.75em;
-				background-color:lightgoldenrodyellow;
 				background-color:#2281fa;
 			}
 
 			input, textarea, select {
 				line-height: 1.75em;
+			}
+			
+			h1 {
+				font-size: 2em;
 			}
 
 			h2 {
@@ -2500,6 +2503,11 @@
 
 		/* Box */
 
+			.box.post h1 {
+				font-size: 3.75em;
+				line-height: 1.5em;
+			}
+		
 			.box.post h2 {
 				font-size: 3.25em;
 				line-height: 1.25em;
@@ -2622,6 +2630,11 @@
 
 		/* Box */
 
+			.box.post h1 {
+				font-size: 3.75em;
+				line-height: 1.5em;
+			}
+		
 			.box.post h2 {
 				font-size: 3.25em;
 				line-height: 1.25em;
@@ -2752,6 +2765,17 @@
 
 			h2, h3, h4, h5, h6 {
 				font-size: 1.5em;
+				line-height:1.2em;
+			}
+
+			h1 {
+				font-size: 2em;
+				line-height:1.3em;
+			}
+			
+			h3 {
+				font-size: 1.2em;
+				line-height:1.2em;
 			}
 
 		/* Section/Article */
